@@ -112,6 +112,9 @@
     input::-ms-input-placeholder {
       color: var(--red ,hsl(0, 36%, 70%));
     }
+input{
+  outline:none;
+  }
 
     .title,
     .description,
@@ -192,6 +195,14 @@
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
+input:-webkit-autofill,
+      input:-webkit-autofill,
+      input:-webkit-autofill:hover,
+      input:-webkit-autofill:focus,
+      input:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 30px white inset !important;
+        box-shadow: 0 0 0 30px white inset !important;
+      }
 
     @media(min-width:1000px) {
       body {
