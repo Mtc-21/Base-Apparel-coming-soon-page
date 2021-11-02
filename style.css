@@ -146,7 +146,6 @@
       width: 100%;
       border-radius: 2rem;
       border: 1px solid var(--red ,hsl(0, 36%, 70%));
-      outline: 0 solid var(--red ,hsl(0, 36%, 70%));
       padding: 0.8rem 2rem;
       background: transparent;
     }
@@ -164,7 +163,7 @@
     }
 
     .alert {
-      outline: 1px solid var(--soft-red);
+      border: 1px solid var(--soft-red);
       border-radius: 2rem;
       background-image: url("images/icon-error.svg");
       background-repeat: no-repeat;
